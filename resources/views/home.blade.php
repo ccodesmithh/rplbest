@@ -79,6 +79,16 @@
         border: none;
         cursor: pointer;
         /* font-size: 1rem; */
+        transition: all 1s;
+    }
+
+    .primary-button:hover {
+        box-shadow: 0 0 10px #FFF5D7, 0 0 40px #FFF5D7, 0 0 80px #FFF5D7;
+        transition: all 1s;
+    }
+    .secondary-button:hover {
+        box-shadow: 0 0 10px #FFF5D7, 0 0 40px #FFF5D7, 0 0 80px #FFF5D7;
+        transition: all 1s;
     }
 
     .secondary-button {
@@ -87,6 +97,7 @@
         padding: 0.5rem 1rem;
         border: 1px solid #FFF5D7;
         cursor: pointer;
+        transition: all 1s;
     }
 
     .garnish {
@@ -130,8 +141,9 @@
             <div class="garnish relative width-[100px] height-[100px] -top-50 left-70">
                 <img src="{{ asset('img/leaf.png') }}" alt="">
             </div>
-
         </section>
+        
     </div>
 </body>
 </html>
+<!-- Kau ganteng -->
