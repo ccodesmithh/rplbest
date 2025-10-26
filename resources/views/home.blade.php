@@ -88,6 +88,16 @@
         border: 1px solid #FFF5D7;
         cursor: pointer;
     }
+
+    .garnish {
+        /* position: relative; */
+        width: 100px;
+        height: 100px;
+        /* rotate: 190deg;
+        top: -20rem;
+        left: -2rem; */
+        filter: blur(5px);
+    }
     
 </style>
 <body>
@@ -114,6 +124,13 @@
                 <a href="#" class="primary-button">Gunakan Mesin Waktu →</a>
                 <a href="#" class="secondary-button">Kirim Pesan →</a>
             </div>
+            <div class="garnish relative width-[100px] height-[100px] rotate-190 -top-80 -left-8">
+                <img src="{{ asset('img/leaf.png') }}" alt="">
+            </div>
+            <div class="garnish relative width-[100px] height-[100px] -top-50 left-70">
+                <img src="{{ asset('img/leaf.png') }}" alt="">
+            </div>
+
         </section>
     </div>
 </body>
