@@ -114,7 +114,7 @@
 <body>
     <div class="background-hero">
         <nav>
-            <img src="{{ asset('img/logo.webp') }}" alt="">
+            <img src="{{ asset('img/logo.webp') }}" alt="" loading="lazy">
             <div class="hamburger">
                 <i class='bx  bx-menu'  ></i> 
                 <h4>Menu</h4>
@@ -132,14 +132,14 @@
                 <p class="text-[#FFF5D7] font-light text-center text-[10px] tracking-widest" style="margin-top: 1rem;">Ingatan digital XI Rekayasa Perangkat Lunak<br>SMK Negeri 3 Metro</p>
             </div>
             <div class="grid grid-cols-1 gap-3 place-items-center width-15rem" style="margin-top: 2rem;">
-                <a href="#" class="primary-button">Gunakan Mesin Waktu →</a>
-                <a href="#" class="secondary-button">Kirim Pesan →</a>
+                <a href="{{ route('timemachine') }}" class="primary-button">Gunakan Mesin Waktu →</a>
+                <a href="{{ route('chat') }}" class="secondary-button">Kirim Pesan →</a>
             </div>
             <div class="garnish relative width-[100px] height-[100px] rotate-190 -top-80 -left-8">
-                <img src="{{ asset('img/leaf.png') }}" alt="">
+                <img src="{{ asset('img/leaf.png') }}" alt="" loading="lazy">
             </div>
             <div class="garnish relative width-[100px] height-[100px] -top-50 left-70">
-                <img src="{{ asset('img/leaf.png') }}" alt="">
+                <img src="{{ asset('img/leaf.png') }}" alt="" loading="lazy">
             </div>
         </section>
         
